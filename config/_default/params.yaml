@@ -1,0 +1,72 @@
+# config/_default/params.yaml
+---
+# https://fixit.lruihao.cn/documentation/basics/#search-configuration
+search:
+  enable: true
+  type: fuse
+  fuse:
+    # https://fusejs.io/api/options.html
+    isCaseSensitive: false
+
+# config/_default/params.yaml
+---
+header:
+  title:
+    logo: ""
+    name: huasiyue
+    pre: <i class="fa fa-code">&nbsp</i>
+    typeit: true
+
+# 没有此效果
+# config/_default/params.yaml
+---
+githubCorner:
+  enable: true
+  permalink: "https://github.com/huasiyue"
+  title: "Visit Me on GitHub"
+  position: left
+
+# config/_default/params.yaml
+---
+home:
+  profile:
+    enable: true
+    subtitle: The last leg of a journey just marks the halfway point.
+    avatarMenu: github
+    avatarURL: /img/avatar.png
+
+social:
+  GitHub: huasiyue
+  Email: hsyyun1110@163.com
+  RSS: true
+
+# config/_default/params.yaml
+---
+footer:
+  enable: true
+  since: 2023
+  hugo: true
+  siteTime:
+    enable: true
+    value: "2023-11-16T07:40:29+08:00"
+  visitor:
+    enable: false
+  license: '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  order:
+    powered: 1
+    copyright: last
+    statistics: first
+
+# config/_default/params.yaml
+---
+# Busuanzi count
+ibruce:
+  enable: true
+  enablePost: true
+
+# config/_default/params.yaml
+---
+# https://fixit.lruihao.cn/documentation/basics/#cdn-configuration
+cdn:
+  data: jsdelivr.yml
+

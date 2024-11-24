@@ -1,0 +1,11 @@
+baseURL: https://huasiyue.github.io/
+languageCode: en-us
+title: huasiyue
+theme: FixIt
+
+# config/_default/hugo.yaml
+---
+# Content without language indicator will default to this language.
+defaultContentLanguage: zh-cn
+languageCode: en
+defaultContentLanguageInSubdir: false
