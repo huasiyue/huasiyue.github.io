@@ -4,13 +4,50 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2025/04/13/hello-world/"/>
-      <url>/2025/04/13/hello-world/</url>
+      <title>小题狂练（2）</title>
+      <link href="/2023/10/30/2023-02/"/>
+      <url>/2023/10/30/2023-02/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<div style="width: 90%; margin: 0 auto; border-top: 2px dashed #ccc;"></div><span id="more"></span></div><br><br><div align = "center">求下述算式的定积分。</div><p>$$<br>\int_{0}^{1}\frac{x-1}{\ln{x}}dx<br>$$</p><details>  <summary>答案</summary><div style="text-align: center;">\(\begin{align*}&  \int_{0}^{1}\frac{x-1}{\ln{x}}dx \\&= \int_{0}^{1}\frac{x^1-1^0}{\ln{x}}dx \\&= \ln{\frac{1+1}{0+1}} \\&= \ln{2}\end{align*}\)</div></details><br><br><div style="width: 90%; margin: 0 auto; border-top: 2px dashed #ccc;"></div><br><br><p>$$<br>\int_{0}^{1}\frac{x^a-x^b}{\ln{x}}dx<br>$$</p><details>  <summary>详解</summary><div>  <div>    <span>方法1：转化成二重积分</span><br><br>    <div style="text-align: center;">\(\begin{align*}&  \int_{0}^{1}\frac{x^a-x^b}{\ln{x}}dx \\&= \int_{0}^{1}(\frac{x^b}{\ln{x}}-\frac{x^a}{\ln{x}})dx \\&= \int_{0}^{1}(\int_{a}^{b}{x^y}dy)dx \\&= \int_{a}^{b}dy\int_{0}^{1}{x^y}dx \\&= \int_{a}^{b}\frac{x^{y+1}}{y+1}dy \\&= \int_{a}^{b}\frac{1}{y+1}dy \\&= (\ln{y+1})|^b_a \\&= \ln{\frac{b+1}{a+1}}\end{align*}\)    </div>  </div><br>  <div>    <span>方法2：先求导再积分（费曼积分法）</span><br><br>      <div style="text-align: center;">令\(\begin{align*}&  f(a,b)=\int_{0}^{1}(\frac{x^b}{\ln{x}}-\frac{x^a}{\ln{x}})dx \\\end{align*}\)      </div><br>      <div style="text-align: center;">\(\begin{align*}&  f'(a,b) = \int_{0}^{1}(x^b-x^a)dx = \frac{1}{b+1}-\frac{1}{a+1}\end{align*}\)      </div><br>      <div style="text-align: center;">\(\begin{align*}&  \int_{}{}f'(a,b)d(a,b) = \ln{\frac{b+1}{a+1}}+C\end{align*}\)      </div><br>      <div style="text-align: center;">\(\begin{align*}&  \because f'(0,0) = 0\end{align*}\)      </div><br>      <div style="text-align: center;">\(\begin{align*}&  \therefore C = 0\end{align*}\)      </div><br>      <div style="text-align: center;">即\(\begin{align*}&  \int_{0}^{1}\frac{x^a-x^b}{\ln{x}}dx = \ln{\frac{b+1}{a+1}}\end{align*}\)      </div>  </div><br><br></div></details>]]></content>
       
       
+      <categories>
+          
+          <category> MATHS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> maths </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>小题狂练（1）</title>
+      <link href="/2023/10/29/2023-01/"/>
+      <url>/2023/10/29/2023-01/</url>
+      
+        <content type="html"><![CDATA[<div style="width: 90%; margin: 0 auto; border-top: 2px dashed #ccc;"></div><span id="more"></span><ol><li></li></ol><p>$$<br>\lim_{x \rightarrow 0}{\frac{\sin(x\sin{\frac{1}{x}})}{x\sin{\frac{1}{x}}}}<br>$$</p><div align = "center">判断极限是否存在。若存在，求出此极限；若不存在，给出证明。</div><ol start="2"><li></li></ol><p>$$<br>\lim_{x \rightarrow 0}{\frac{\sin(x^2\sin{\frac{1}{x}})}{x}}<br>$$</p><div align = "center">判断极限是否存在。若存在，求出此极限；若不存在，给出证明。</div>]]></content>
+      
+      
+      <categories>
+          
+          <category> MATHS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> maths </tag>
+            
+        </tags>
       
     </entry>
     

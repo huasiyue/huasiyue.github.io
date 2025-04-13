@@ -1,0 +1,269 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>小题狂练（2） | 花思月啦</title><meta name="author" content="huasiyue"><meta name="copyright" content="huasiyue"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="rgba(255, 192, 203, 0.8)"><meta property="og:type" content="article">
+<meta property="og:title" content="小题狂练（2）">
+<meta property="og:url" content="https://huasiyue.github.io/2023/10/30/2023-02/index.html">
+<meta property="og:site_name" content="花思月啦">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://huasiyue.github.io/img/huasiyue.jpg">
+<meta property="article:published_time" content="2023-10-30T15:42:05.000Z">
+<meta property="article:modified_time" content="2025-04-13T13:58:39.579Z">
+<meta property="article:author" content="huasiyue">
+<meta property="article:tag" content="maths">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://huasiyue.github.io/img/huasiyue.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "小题狂练（2）",
+  "url": "https://huasiyue.github.io/2023/10/30/2023-02/",
+  "image": "https://huasiyue.github.io/img/huasiyue.jpg",
+  "datePublished": "2023-10-30T15:42:05.000Z",
+  "dateModified": "2025-04-13T13:58:39.579Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "huasiyue",
+      "url": "https://huasiyue.github.io/"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/yun.png"><link rel="canonical" href="https://huasiyue.github.io/2023/10/30/2023-02/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#3D1721')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'rgba(255, 192, 203, 0.8)')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '小题狂练（2）',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="web_bg" style="background-color: rgba(255, 192, 203, 0.2);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/huasiyue.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/donate/"><i class="fa-fw fas fa-heart"></i><span> 捐赠</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">花思月啦</span></a><a class="nav-page-title" href="/"><span class="site-name">小题狂练（2）</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/donate/"><i class="fa-fw fas fa-heart"></i><span> 捐赠</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">小题狂练（2）</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-10-30T15:42:05.000Z" title="发表于 2023-10-30 23:42:05">2023-10-30</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-04-13T13:58:39.579Z" title="更新于 2025-04-13 21:58:39">2025-04-13</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/MATHS/">MATHS</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><div style="width: 90%; margin: 0 auto; border-top: 2px dashed #ccc;"></div>
+
+<span id="more"></span>
+
+</div>
+<br><br>
+
+<div align = "center">求下述算式的定积分。</div>
+
+<p>$$<br>\int_{0}^{1}\frac{x-1}{\ln{x}}dx<br>$$</p>
+<details>
+  <summary>答案</summary>
+
+<div style="text-align: center;">
+\(
+\begin{align*}
+&  \int_{0}^{1}\frac{x-1}{\ln{x}}dx \\
+&= \int_{0}^{1}\frac{x^1-1^0}{\ln{x}}dx \\
+&= \ln{\frac{1+1}{0+1}} \\
+&= \ln{2}
+\end{align*}
+\)
+</div>
+</details>
+<br><br>
+
+<div style="width: 90%; margin: 0 auto; border-top: 2px dashed #ccc;"></div>
+<br><br>
+
+<p>$$<br>\int_{0}^{1}\frac{x^a-x^b}{\ln{x}}dx<br>$$</p>
+<details>
+  <summary>详解</summary>
+
+<div>
+
+  <div>
+    <span>方法1：转化成二重积分</span><br><br>
+    <div style="text-align: center;">
+\(
+\begin{align*}
+&  \int_{0}^{1}\frac{x^a-x^b}{\ln{x}}dx \\
+&= \int_{0}^{1}(\frac{x^b}{\ln{x}}-\frac{x^a}{\ln{x}})dx \\
+&= \int_{0}^{1}(\int_{a}^{b}{x^y}dy)dx \\
+&= \int_{a}^{b}dy\int_{0}^{1}{x^y}dx \\
+&= \int_{a}^{b}\frac{x^{y+1}}{y+1}dy \\
+&= \int_{a}^{b}\frac{1}{y+1}dy \\
+&= (\ln{y+1})|^b_a \\
+&= \ln{\frac{b+1}{a+1}}
+\end{align*}
+\)
+    </div>
+  </div>
+<br>
+  <div>
+    <span>方法2：先求导再积分（费曼积分法）</span><br><br>
+      <div style="text-align: center;">令
+\(
+\begin{align*}
+&  f(a,b)=\int_{0}^{1}(\frac{x^b}{\ln{x}}-\frac{x^a}{\ln{x}})dx \\
+\end{align*}
+\)
+      </div><br>
+      <div style="text-align: center;">
+\(
+\begin{align*}
+&  f'(a,b) = \int_{0}^{1}(x^b-x^a)dx = \frac{1}{b+1}-\frac{1}{a+1}
+\end{align*}
+\)
+      </div><br>
+      <div style="text-align: center;">
+\(
+\begin{align*}
+&  \int_{}{}f'(a,b)d(a,b) = \ln{\frac{b+1}{a+1}}+C
+\end{align*}
+\)
+      </div><br>
+      <div style="text-align: center;">
+\(
+\begin{align*}
+&  \because f'(0,0) = 0
+\end{align*}
+\)
+      </div><br>
+      <div style="text-align: center;">
+\(
+\begin{align*}
+&  \therefore C = 0
+\end{align*}
+\)
+      </div><br>
+      <div style="text-align: center;">即
+\(
+\begin{align*}
+&  \int_{0}^{1}\frac{x^a-x^b}{\ln{x}}dx = \ln{\frac{b+1}{a+1}}
+\end{align*}
+\)
+      </div>
+  </div>
+<br><br>
+</div>
+
+</details>
+
+
+
+
+
+
+
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://huasiyue.github.io">huasiyue</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://huasiyue.github.io/2023/10/30/2023-02/">https://huasiyue.github.io/2023/10/30/2023-02/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://huasiyue.github.io" target="_blank">花思月啦</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/maths/">maths</a></div><div class="post-share"><div class="social-share" data-image="/img/huasiyue.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2023/10/29/2023-01/" title="小题狂练（1）"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">小题狂练（1）</div></div><div class="info-2"><div class="info-item-1">       $$\lim_{x \rightarrow 0}{\frac{\sin(x\sin{\frac{1}{x}})}{x\sin{\frac{1}{x}}}}$$ 判断极限是否存在。若存在，求出此极限；若不存在，给出证明。     $$\lim_{x \rightarrow 0}{\frac{\sin(x^2\sin{\frac{1}{x}})}{x}}$$ 判断极限是否存在。若存在，求出此极限；若不存在，给出证明。 </div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2023/10/29/2023-01/" title="小题狂练（1）"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2023-10-29</div><div class="info-item-2">小题狂练（1）</div></div><div class="info-2"><div class="info-item-1">       $$\lim_{x \rightarrow 0}{\frac{\sin(x\sin{\frac{1}{x}})}{x\sin{\frac{1}{x}}}}$$ 判断极限是否存在。若存在，求出此极限；若不存在，给出证明。     $$\lim_{x \rightarrow 0}{\frac{\sin(x^2\sin{\frac{1}{x}})}{x}}$$ 判断极限是否存在。若存在，求出此极限；若不存在，给出证明。 </div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/huasiyue.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">huasiyue</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/huasiyue"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/10/30/2023-02/" title="小题狂练（2）">小题狂练（2）</a><time datetime="2023-10-30T15:42:05.000Z" title="发表于 2023-10-30 23:42:05">2023-10-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/10/29/2023-01/" title="小题狂练（1）">小题狂练（1）</a><time datetime="2023-10-29T13:59:59.000Z" title="发表于 2023-10-29 21:59:59">2023-10-29</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(/img/footer-background.jpg);"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;2025 By huasiyue</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.4.0-b1</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章..." type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
